@@ -1,0 +1,583 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		66BD3A6A210E26AE000EB3F5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66BD3A69210E26AE000EB3F5 /* AppDelegate.swift */; };
+		66BD3A6C210E26AE000EB3F5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66BD3A6B210E26AE000EB3F5 /* ViewController.swift */; };
+		66BD3A6F210E26AE000EB3F5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66BD3A6D210E26AE000EB3F5 /* Main.storyboard */; };
+		66BD3A71210E26AF000EB3F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66BD3A70210E26AF000EB3F5 /* Assets.xcassets */; };
+		66BD3A74210E26AF000EB3F5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66BD3A72210E26AF000EB3F5 /* LaunchScreen.storyboard */; };
+		66BD3A7F210E26AF000EB3F5 /* SimplyBusinessTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66BD3A7E210E26AF000EB3F5 /* SimplyBusinessTests.swift */; };
+		66BD3A8A210E26AF000EB3F5 /* SimplyBusinessUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66BD3A89210E26AF000EB3F5 /* SimplyBusinessUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		66BD3A7B210E26AF000EB3F5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 66BD3A5E210E26AE000EB3F5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 66BD3A65210E26AE000EB3F5;
+			remoteInfo = SimplyBusiness;
+		};
+		66BD3A86210E26AF000EB3F5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 66BD3A5E210E26AE000EB3F5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 66BD3A65210E26AE000EB3F5;
+			remoteInfo = SimplyBusiness;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		66BD3A66210E26AE000EB3F5 /* SimplyBusiness.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimplyBusiness.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		66BD3A69210E26AE000EB3F5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		66BD3A6B210E26AE000EB3F5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		66BD3A6E210E26AE000EB3F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		66BD3A70210E26AF000EB3F5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		66BD3A73210E26AF000EB3F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		66BD3A75210E26AF000EB3F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		66BD3A7A210E26AF000EB3F5 /* SimplyBusinessTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimplyBusinessTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		66BD3A7E210E26AF000EB3F5 /* SimplyBusinessTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimplyBusinessTests.swift; sourceTree = "<group>"; };
+		66BD3A80210E26AF000EB3F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		66BD3A85210E26AF000EB3F5 /* SimplyBusinessUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimplyBusinessUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		66BD3A89210E26AF000EB3F5 /* SimplyBusinessUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimplyBusinessUITests.swift; sourceTree = "<group>"; };
+		66BD3A8B210E26AF000EB3F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		66BD3A63210E26AE000EB3F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66BD3A77210E26AF000EB3F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66BD3A82210E26AF000EB3F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		66BD3A5D210E26AE000EB3F5 = {
+			isa = PBXGroup;
+			children = (
+				66BD3A68210E26AE000EB3F5 /* SimplyBusiness */,
+				66BD3A7D210E26AF000EB3F5 /* SimplyBusinessTests */,
+				66BD3A88210E26AF000EB3F5 /* SimplyBusinessUITests */,
+				66BD3A67210E26AE000EB3F5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		66BD3A67210E26AE000EB3F5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				66BD3A66210E26AE000EB3F5 /* SimplyBusiness.app */,
+				66BD3A7A210E26AF000EB3F5 /* SimplyBusinessTests.xctest */,
+				66BD3A85210E26AF000EB3F5 /* SimplyBusinessUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		66BD3A68210E26AE000EB3F5 /* SimplyBusiness */ = {
+			isa = PBXGroup;
+			children = (
+				66BD3A69210E26AE000EB3F5 /* AppDelegate.swift */,
+				66BD3A6B210E26AE000EB3F5 /* ViewController.swift */,
+				66BD3A6D210E26AE000EB3F5 /* Main.storyboard */,
+				66BD3A70210E26AF000EB3F5 /* Assets.xcassets */,
+				66BD3A72210E26AF000EB3F5 /* LaunchScreen.storyboard */,
+				66BD3A75210E26AF000EB3F5 /* Info.plist */,
+			);
+			path = SimplyBusiness;
+			sourceTree = "<group>";
+		};
+		66BD3A7D210E26AF000EB3F5 /* SimplyBusinessTests */ = {
+			isa = PBXGroup;
+			children = (
+				66BD3A7E210E26AF000EB3F5 /* SimplyBusinessTests.swift */,
+				66BD3A80210E26AF000EB3F5 /* Info.plist */,
+			);
+			path = SimplyBusinessTests;
+			sourceTree = "<group>";
+		};
+		66BD3A88210E26AF000EB3F5 /* SimplyBusinessUITests */ = {
+			isa = PBXGroup;
+			children = (
+				66BD3A89210E26AF000EB3F5 /* SimplyBusinessUITests.swift */,
+				66BD3A8B210E26AF000EB3F5 /* Info.plist */,
+			);
+			path = SimplyBusinessUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		66BD3A65210E26AE000EB3F5 /* SimplyBusiness */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66BD3A8E210E26AF000EB3F5 /* Build configuration list for PBXNativeTarget "SimplyBusiness" */;
+			buildPhases = (
+				66BD3A62210E26AE000EB3F5 /* Sources */,
+				66BD3A63210E26AE000EB3F5 /* Frameworks */,
+				66BD3A64210E26AE000EB3F5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimplyBusiness;
+			productName = SimplyBusiness;
+			productReference = 66BD3A66210E26AE000EB3F5 /* SimplyBusiness.app */;
+			productType = "com.apple.product-type.application";
+		};
+		66BD3A79210E26AF000EB3F5 /* SimplyBusinessTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66BD3A91210E26AF000EB3F5 /* Build configuration list for PBXNativeTarget "SimplyBusinessTests" */;
+			buildPhases = (
+				66BD3A76210E26AF000EB3F5 /* Sources */,
+				66BD3A77210E26AF000EB3F5 /* Frameworks */,
+				66BD3A78210E26AF000EB3F5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				66BD3A7C210E26AF000EB3F5 /* PBXTargetDependency */,
+			);
+			name = SimplyBusinessTests;
+			productName = SimplyBusinessTests;
+			productReference = 66BD3A7A210E26AF000EB3F5 /* SimplyBusinessTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		66BD3A84210E26AF000EB3F5 /* SimplyBusinessUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66BD3A94210E26AF000EB3F5 /* Build configuration list for PBXNativeTarget "SimplyBusinessUITests" */;
+			buildPhases = (
+				66BD3A81210E26AF000EB3F5 /* Sources */,
+				66BD3A82210E26AF000EB3F5 /* Frameworks */,
+				66BD3A83210E26AF000EB3F5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				66BD3A87210E26AF000EB3F5 /* PBXTargetDependency */,
+			);
+			name = SimplyBusinessUITests;
+			productName = SimplyBusinessUITests;
+			productReference = 66BD3A85210E26AF000EB3F5 /* SimplyBusinessUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		66BD3A5E210E26AE000EB3F5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Ben Cradick";
+				TargetAttributes = {
+					66BD3A65210E26AE000EB3F5 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					66BD3A79210E26AF000EB3F5 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 66BD3A65210E26AE000EB3F5;
+					};
+					66BD3A84210E26AF000EB3F5 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 66BD3A65210E26AE000EB3F5;
+					};
+				};
+			};
+			buildConfigurationList = 66BD3A61210E26AE000EB3F5 /* Build configuration list for PBXProject "SimplyBusiness" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 66BD3A5D210E26AE000EB3F5;
+			productRefGroup = 66BD3A67210E26AE000EB3F5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				66BD3A65210E26AE000EB3F5 /* SimplyBusiness */,
+				66BD3A79210E26AF000EB3F5 /* SimplyBusinessTests */,
+				66BD3A84210E26AF000EB3F5 /* SimplyBusinessUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		66BD3A64210E26AE000EB3F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66BD3A74210E26AF000EB3F5 /* LaunchScreen.storyboard in Resources */,
+				66BD3A71210E26AF000EB3F5 /* Assets.xcassets in Resources */,
+				66BD3A6F210E26AE000EB3F5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66BD3A78210E26AF000EB3F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66BD3A83210E26AF000EB3F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		66BD3A62210E26AE000EB3F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66BD3A6C210E26AE000EB3F5 /* ViewController.swift in Sources */,
+				66BD3A6A210E26AE000EB3F5 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66BD3A76210E26AF000EB3F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66BD3A7F210E26AF000EB3F5 /* SimplyBusinessTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66BD3A81210E26AF000EB3F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66BD3A8A210E26AF000EB3F5 /* SimplyBusinessUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		66BD3A7C210E26AF000EB3F5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 66BD3A65210E26AE000EB3F5 /* SimplyBusiness */;
+			targetProxy = 66BD3A7B210E26AF000EB3F5 /* PBXContainerItemProxy */;
+		};
+		66BD3A87210E26AF000EB3F5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 66BD3A65210E26AE000EB3F5 /* SimplyBusiness */;
+			targetProxy = 66BD3A86210E26AF000EB3F5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		66BD3A6D210E26AE000EB3F5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				66BD3A6E210E26AE000EB3F5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		66BD3A72210E26AF000EB3F5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				66BD3A73210E26AF000EB3F5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		66BD3A8C210E26AF000EB3F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		66BD3A8D210E26AF000EB3F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		66BD3A8F210E26AF000EB3F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SimplyBusiness/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.BenCradick.SimplyBusiness;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		66BD3A90210E26AF000EB3F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SimplyBusiness/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.BenCradick.SimplyBusiness;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		66BD3A92210E26AF000EB3F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SimplyBusinessTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.BenCradick.SimplyBusinessTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimplyBusiness.app/SimplyBusiness";
+			};
+			name = Debug;
+		};
+		66BD3A93210E26AF000EB3F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SimplyBusinessTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.BenCradick.SimplyBusinessTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimplyBusiness.app/SimplyBusiness";
+			};
+			name = Release;
+		};
+		66BD3A95210E26AF000EB3F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SimplyBusinessUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.BenCradick.SimplyBusinessUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SimplyBusiness;
+			};
+			name = Debug;
+		};
+		66BD3A96210E26AF000EB3F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SimplyBusinessUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.BenCradick.SimplyBusinessUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SimplyBusiness;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		66BD3A61210E26AE000EB3F5 /* Build configuration list for PBXProject "SimplyBusiness" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66BD3A8C210E26AF000EB3F5 /* Debug */,
+				66BD3A8D210E26AF000EB3F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66BD3A8E210E26AF000EB3F5 /* Build configuration list for PBXNativeTarget "SimplyBusiness" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66BD3A8F210E26AF000EB3F5 /* Debug */,
+				66BD3A90210E26AF000EB3F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66BD3A91210E26AF000EB3F5 /* Build configuration list for PBXNativeTarget "SimplyBusinessTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66BD3A92210E26AF000EB3F5 /* Debug */,
+				66BD3A93210E26AF000EB3F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66BD3A94210E26AF000EB3F5 /* Build configuration list for PBXNativeTarget "SimplyBusinessUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66BD3A95210E26AF000EB3F5 /* Debug */,
+				66BD3A96210E26AF000EB3F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 66BD3A5E210E26AE000EB3F5 /* Project object */;
+}
